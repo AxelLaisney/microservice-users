@@ -1,3 +1,6 @@
+//Entry point of the application
+
+
 package fr.java.spring.microservices.microserviceusers;
 
 import org.springframework.boot.SpringApplication;

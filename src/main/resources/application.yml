@@ -1,0 +1,9 @@
+spring:
+  datasource: #make database connection
+    url: jdbc:mysql://localhost/bank #URL of our database
+    username: root #username used to log in the database
+    password: "" #password used to log in the database
+  jpa:
+    hibernate: #tell hibernate to update the data base when the data are updated in the application
+      ddl-auto: update
+    show-sql: true #shows the SQL request the application is doing
