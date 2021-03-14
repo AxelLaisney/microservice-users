@@ -1,0 +1,9 @@
+COMPTE RENDU: 
+Problème rencontré(s):
+Pas familier avec la création d'API avec Spring, le manque de connaissance fû un frein
+pour sûr mais pas insurmontable avec l'aide de la playlist fournie ainsi que du site officiel
+de spring, de stackoverflow et d'internet en général.
+
+Ce que j'ai appris:
+A faire des api sous Spring! Ce qui a été intéressant de voir une autre façon différente de
+concevoir une api à défaut d'utiliser Python.
