@@ -42,7 +42,7 @@ public class MicroserviceUsersController {
 
     //Add an user when a Post request is received
     @PostMapping(path = "/users")
-    public String getHello(@RequestParam String fname, @RequestParam String lname, @RequestParam String mail, @RequestParam String phone){
+    public String addUser(@RequestParam String fname, @RequestParam String lname, @RequestParam String mail, @RequestParam String phone){
         Users user = new Users(fname, lname, mail, phone);
         this.repository.save(user);
         return "A user has been added";
@@ -50,8 +50,8 @@ public class MicroserviceUsersController {
 
     //Delete an user when a specific id is given
     @PostMapping(path = "/users/delete")
-    public String getHello(@RequestParam int id){
+    public String deleteUser(@RequestParam int id){
         this.repository.deleteById(id);
-        return "hello world";
+        return "A user has been deleted";
     }
 }
