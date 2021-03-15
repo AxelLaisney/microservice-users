@@ -1,3 +1,5 @@
+server:
+  port: 5050
 spring:
   datasource: #make database connection
     url: jdbc:mysql://localhost/bank #URL of our database

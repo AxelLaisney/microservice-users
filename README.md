@@ -14,6 +14,8 @@ containt the controllers of the project
 -application.yml
 define the application configurations
 
+-ConfigurationClient
+fichier décrivant le Feing client afin de pouvoir faire émettre des requête HTTP
 
 BUILD WITH
 Visual studio code - The IDE
